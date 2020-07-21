@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   if (actual.length !== expected.length) {
     return `❌| Assertion Failed: ${actual} !== ${expected}`;
   }
@@ -12,6 +12,6 @@ const assertEqual = function(actual, expected) {
 };
 
 
-console.log(assertEqual([1, 2, 3], [1, 2, 3]));
-console.log(assertEqual([1, "2", 3], [1, 2, 3]));
-console.log(assertEqual([1, 3], [1, 2, 3]));
+console.log(assertArraysEqual([1, 2, 3], [1, 2, 3]));
+console.log(assertArraysEqual([1, "2", 3], [1, 2, 3]));
+console.log(assertArraysEqual([1, 3], [1, 2, 3]));
