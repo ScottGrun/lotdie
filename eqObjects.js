@@ -30,11 +30,13 @@ const eqObjects = (obj1, obj2) => {
   if (obj1Keys.length !== obj2Keys.length) {
     return false;
   }
+
   for (let item of obj1Keys) {
     if (obj1[item] !== obj2[item] && Array.isArray(obj1[item]) === false) {
       return false;
     }
     
+
     if (Array.isArray(obj1[item])) {
       if (eqArrays(obj1[item], obj2[item]) === false) {
         return false;
