@@ -8,7 +8,7 @@
 //   }
 // };
 
-const countOnly = function (allItems, itemsToCount) {
+const countOnly = function(allItems, itemsToCount) {
   let countedItems = {};
   for (const item of allItems) {
     if (itemsToCount[item]) {
@@ -22,17 +22,17 @@ const countOnly = function (allItems, itemsToCount) {
   return countedItems;
 };
 
-const firstNames = [
-  "Karl",
-  "Salima",
-  "Agouhanna",
-  "Fang",
-  "Kavith",
-  "Jason",
-  "Salima",
-  "Fang",
-  "Joe",
-];
+// const firstNames = [
+//   "Karl",
+//   "Salima",
+//   "Agouhanna",
+//   "Fang",
+//   "Kavith",
+//   "Jason",
+//   "Salima",
+//   "Fang",
+//   "Joe",
+// ];
 
 // const result1 = countOnly(firstNames, {
 //   Jason: true,

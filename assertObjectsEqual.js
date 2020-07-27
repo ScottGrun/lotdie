@@ -14,7 +14,7 @@
 // };
 const eqArrays = require("./eqArrays");
 
-const assertObjectsEqual = function (actual, expected) {
+const assertObjectsEqual = function(actual, expected) {
   const inspect = require("util").inspect;
   let actualKeys = Object.keys(actual);
   let expectedKeys = Object.keys(expected);
