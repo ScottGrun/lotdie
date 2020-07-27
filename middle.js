@@ -7,3 +7,5 @@ const middle = (inputArray) => {
   }
   return inputArray.slice(middleIndex, middleIndex + 1);
 };
+
+module.exports = middle;
