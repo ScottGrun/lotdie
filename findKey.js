@@ -7,8 +7,6 @@ const findKey = (objToSearch, callback)=>{
   }
 };
 
-
-
 console.log(findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
